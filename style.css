@@ -60,6 +60,11 @@
     width: 100%;
     height: 100%;
 }
+.display{
+    width: 100vw;
+    background: yellow;
+    margin-left:-5rem
+}
 .section2{
     background: red; 
 }
@@ -102,6 +107,15 @@
         display: flex;
         flex-direction: column;
         
+    }
+    .display{
+        width: 100vw;
+        background: yellow;
+        .display{
+            width: 100vw;
+            background: yellow;
+            margin-left:5rem
+        }
     }
     .flex-div{
         display: flex;
